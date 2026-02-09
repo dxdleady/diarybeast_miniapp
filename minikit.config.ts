@@ -17,9 +17,9 @@ export const minikitConfig = {
   miniapp: {
     version: "1",
     name: "DiaryBeast",
-    subtitle: "Your onchain Tamagotchi diary",
+    subtitle: "Web3 Tamagotchi journaling app",
     description:
-      "Hatch your Beast, name it, choose your path, and grow onchain. A journaling companion that evolves with you.",
+      "Write Daily. Grow Your Beast. Own Your Mind. A web3 Tamagotchi-style journaling app where your pet evolves as you journal, set goals, and reflect onchain.",
     screenshotUrls: [
       `${ROOT_URL}/screenshot-1.png`,
       `${ROOT_URL}/screenshot-2.png`,
@@ -30,13 +30,13 @@ export const minikitConfig = {
     splashBackgroundColor: "#0F172A",
     homeUrl: ROOT_URL,
     webhookUrl: `${ROOT_URL}/api/webhook`,
-    primaryCategory: "lifestyle",
+    primaryCategory: "productivity",
     tags: ["journaling", "tamagotchi", "pet", "wellness"],
     heroImageUrl: `${ROOT_URL}/hero.png`,
-    tagline: "Hatch your Beast. Grow onchain",
-    ogTitle: "DiaryBeast — Onchain Tamagotchi",
+    tagline: "Write Daily. Grow Your Beast.",
+    ogTitle: "DiaryBeast - Grow Your Beast",
     ogDescription:
-      "Hatch a unique Beast, name it, and start your journaling journey onchain.",
+      "A web3 Tamagotchi-style journaling app. Write daily, grow your Beast, and own your mind onchain.",
     ogImageUrl: `${ROOT_URL}/hero.png`,
   },
 } as const;
